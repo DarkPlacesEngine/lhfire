@@ -229,7 +229,7 @@ unsigned char* quakepalette;
 
 unsigned char findcolor_black, findcolor_white;
 
-// generic little palette searcher written by Forest "LordHavoc" Hale
+// generic little palette searcher written by Ashley Rose Hale (LadyHavoc)
 // searchs for the nearest color in the palette, not optimized for perfect matchs.
 // red, green, and blue can be far outside of the 0-255 range of the palette.
 int directfindcolor(unsigned char* p, int start, int end, int red, int green, int blue)

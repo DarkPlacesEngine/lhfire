@@ -16,7 +16,7 @@ int main(int argc, char** argv)
 	int i;
 	int starttime;
 	int endtime;
-	printf("lhfire 1.10 by Forest \"LordHavoc\" Hale\n");
+	printf("lhfire 1.10 by Ashley Rose Hale (LadyHavoc)\n");
 	if (argc >= 2 && argv[1])
 	{
 		starttime = time(NULL);
