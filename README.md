@@ -2,6 +2,8 @@
 
 Particle effect renderer used for the explosions, plasma shots, and other sprites in the mod, can make .spr, .spr32, and .tga output.
 
+![example output](examples.jpg)
+
 
 ## Usage
 
