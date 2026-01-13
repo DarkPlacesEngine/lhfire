@@ -9,12 +9,6 @@ Particle effect renderer used for the explosions, plasma shots, and other sprite
 lhfire script.txt
 ```
 
-e.g.,
-
-```shell
-lhfire examples/smoke.txt
-```
-
 
 ## Script Commands
 
@@ -42,7 +36,7 @@ Sets the number of rendering passes per frame, 4 or more is needed for smooth mo
 
 `spritetype value`
 
-Sets the type of sprite to create, can be `vp_parallel_upright`, `facing_upright`, `vp_parallel`, `oriented`, or `vp_parallel_oriented` (default: `vp_parallel`
+Sets the type of sprite to create, can be `vp_parallel_upright`, `facing_upright`, `vp_parallel`, `oriented`, or `vp_parallel_oriented` (default: `vp_parallel`)
 
 > **ⓘ Note**
 >
@@ -167,7 +161,7 @@ Destroys all particles instantly, mainly useful if you wish to render multiple s
 If any other commands are desired, let me know.
 
 
-## Build all examples
+## Examples
 
 Here is a one-line bash command to run all the example script configurations:
 
