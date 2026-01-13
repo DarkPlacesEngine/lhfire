@@ -2,15 +2,15 @@ name: Compile LHFire
 
 on:
   push:
-    # branches:
-    #   - main
+    branches:
+      - main
   pull_request:
     branches:
       - main
   workflow_dispatch:
 
 jobs:
-  build:
+  linux:
     runs-on: ubuntu-latest
 
     steps:
@@ -23,5 +23,5 @@ jobs:
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: compiled executable
+          name: lhfire-linux
           path: lhfire
