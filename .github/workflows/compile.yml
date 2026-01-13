@@ -1,4 +1,4 @@
-name: Compile LHFire
+name: Compile
 
 on:
   push:
